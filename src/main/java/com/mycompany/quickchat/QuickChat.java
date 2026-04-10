@@ -31,9 +31,9 @@ public class QuickChat {
         
     String result = Login.registerUser(firstName, username, password, cellphone, lastName);
     
-    System.out.println("*****************************************");
+    
     System.out.println(result);
-    System.out.println("******************************************");
+  
     
     if(result.contains("not correctly")){
     System.out.println("Please fix your errors and try again.");
@@ -50,7 +50,7 @@ public class QuickChat {
     boolean loginresult = Login.loginUser(loginUsername, loginPassword);
    
     System.out.println(Login.returnLoginStatus(loginresult));
-    System.out.println("*******************************");
+    
         
     }
 }
