@@ -37,15 +37,15 @@ class Login {
         String errors = "";
         
         if(!checkUserName(username)){
-            errors += "Username is not correctly formatted; please ensure that your username contains an underscore and is no more than five characters length.\n";
+            errors += "username is not correctly formatted; please ensure that your username contains an underscore and is no more than five characters length.\n";
         }
         
         if(!checkPasswordComplexity(password)){
-            errors += "Password is not correctly formatted; please ensure that the password contains at least eight characters, a capital letter, a number and a special character.\n";
+            errors += "password is not correctly formatted; please ensure that the password contains at least eight characters, a capital letter, a number and a special character.\n";
         }
         
         if(!checkCellPhoneNumber(cellphone)){
-            errors += "Cellphone is not correctly formatted or does not contain international code.\n";
+            errors += "cellphone is not correctly formatted or does not contain international code.\n";
         }
         
         if(!errors.isEmpty()){
