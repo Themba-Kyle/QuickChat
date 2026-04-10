@@ -9,7 +9,7 @@ package com.mycompany.quickchat;
  * @author User
  */
 import java.util.Scanner;
-public class QuickChat {
+public class QuickChat { //class starts here
 
     public static void main(String[] args) {
         
