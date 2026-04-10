@@ -10,11 +10,11 @@ package com.mycompany.quickchat;
  */
 class Login {
     static User registeredUser = new User();
-    
+    // check username method
     static boolean checkUserName(String username){
         return !(username.length() > 5 || !username.contains("_"));
     }
-    
+    //check password method
     static boolean checkPasswordComplexity(String password){
         if(password.length() < 8) return false;
         if(password.equals(password.toLowerCase())) return false;
@@ -22,7 +22,7 @@ class Login {
         if(!password.matches(".*\\d.*")) return false;
         return true;
     }
-    
+    //check cellphone method
     static boolean checkCellPhoneNumber(String cellphone){
         if(cellphone.startsWith("+27") && cellphone.length() == 12){
             String numbers = cellphone.substring(3);
@@ -32,7 +32,7 @@ class Login {
         }
         return false;
     }
-    
+    //check register method
     static String registerUser(String firstName, String username, String password, String cellphone, String lastName){
         String errors = "";
         

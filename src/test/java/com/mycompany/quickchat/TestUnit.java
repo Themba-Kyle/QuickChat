@@ -46,27 +46,27 @@ public class TestUnit {
 
     @org.junit.Test
     public void testRegisterUser() {
-        String result = Login.registerUser("Yasmine", "kyl_1", "Ch&&sec@ke99!", "+27838968976", "Ipi");
+        String result = Login.registerUser("Yasmine", "kyl_1", "Ch&&sec@ke99!", "+27838968976", "Phiri");
         Assert.assertEquals(true, result.contains("Welcome"));
     }
     
     // ========== LOGIN TESTS ==========
     @org.junit.Test
     public void testLoginUserCorrect() {
-        Login.registerUser("Yasmine", "kyl_1", "Ch&&sec@ke99!", "+27838968976", "Ipi");
+        Login.registerUser("Yasmine", "kyl_1", "Ch&&sec@ke99!", "+27838968976", "Phiri");
         Assert.assertEquals(true, Login.loginUser("kyl_1", "Ch&&sec@ke99!"));
     }
     
     @org.junit.Test
     public void testLoginUserIncorrect() {
-        Login.registerUser("Yasmine", "kyl_1", "Ch&&sec@ke99!", "+27838968976", "Ipi");
+        Login.registerUser("Yasmine", "kyl_1", "Ch&&sec@ke99!", "+27838968976", "Phiri");
         Assert.assertEquals(false, Login.loginUser("wrong", "wrong"));
     }
     
     // ========== LOGIN STATUS TESTS ==========
     @org.junit.Test
     public void testReturnLoginStatusSuccess() {
-        Login.registerUser("Yasmine", "kyl_1", "Ch&&sec@ke99!", "+27838968976", "Ipi");
+        Login.registerUser("Yasmine", "kyl_1", "Ch&&sec@ke99!", "+27838968976", "Phiri");
         String result = Login.returnLoginStatus(true);
         Assert.assertEquals(true, result.contains("Welcome"));
     }
