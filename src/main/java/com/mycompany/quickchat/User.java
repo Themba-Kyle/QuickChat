@@ -6,7 +6,7 @@ package com.mycompany.quickchat;
 
 /**
  *
- * @author User
+ * @Kyle User
  */
 class User {
     //declaring my variables

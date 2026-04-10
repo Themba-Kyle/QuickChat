@@ -6,7 +6,7 @@ package com.mycompany.quickchat;
 
 /**
  *
- * @author User
+ * @Kyle User
  */
 class Login {
     static User registeredUser = new User();
