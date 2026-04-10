@@ -9,6 +9,7 @@ package com.mycompany.quickchat;
  * @author User
  */
 class User {
+    //declaring my variables
     String username;
     String password;
     String cellphone;
