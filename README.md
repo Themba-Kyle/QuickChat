@@ -71,8 +71,6 @@ Contains JUnit tests to verify:
 	•	Cellphone validation
 	•	Registration functionality
 	•	Login functionality
-
-
 🧪 Testing
 
 JUnit is used to test system functionality. The following tests are included:
@@ -81,15 +79,50 @@ JUnit is used to test system functionality. The following tests are included:
 	•	Cellphone format (valid and invalid)
 	•	Login success and failure
 	•	Login status messages
-
 🚀 How to Run the Program
 	1.	Open the project in NetBeans
 	2.	Run the QuickChat class
 	3.	Enter user details when prompted
 	4.	Register and then log in using the same credentials
-
 🔧 Technologies Used
 	•	Java
 	•	NetBeans IDE
 	•	JUnit (for testing)
 	•	Maven (project management)
+	Refences
+	Java Documentation
+
+Oracle Corporation, 2024. Java Platform, Standard Edition Documentation.
+Available at: https://docs.oracle.com/en/java/
+[Accessed 10 April 2026].
+
+⸻
+
+🔹 String Class
+
+Oracle Corporation, 2024. Class String (Java SE Documentation).
+Available at: https://docs.oracle.com/javase/8/docs/api/java/lang/String.html
+[Accessed 9 April 2026].
+
+⸻
+
+🔹 Regular Expressions Book
+
+Goyvaerts, J. and Levithan, S., 2023. Regular Expressions Cookbook. 2nd ed.
+Sebastopol: O’Reilly Media.
+
+⸻
+
+🔹 Regex Website
+
+Regex101, 2026. Regex Tester and Debugger.
+Available at: https://regex101.com/
+[Accessed 8 April 2026].
+
+⸻
+
+🔹 JUnit Documentation
+
+JUnit Team, 2024. JUnit 4 Documentation.
+Available at: https://junit.org/junit4/
+[Accessed 11 April 2026].
